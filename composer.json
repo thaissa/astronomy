@@ -1,0 +1,26 @@
+{
+    "name": "tmendes/astronomy",
+    "description": "Sun and Moon astronomy for PHP: rise and set times, moon phases, seasons and eclipses. A port of Astronomy Engine.",
+    "keywords": ["astronomy", "sun", "moon", "sunrise", "sunset", "moonrise", "moon phase", "eclipse", "equinox", "solstice"],
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Tmendes\\Astronomy\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tmendes\\Astronomy\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Thaissa Mendes",
+            "email": "thaissa@tmisoft.com"
+        }
+    ],
+    "require": {
+        "php": "^8.3"
+    }
+}
